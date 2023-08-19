@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    127237,       2957]
-NotebookOptionsPosition[    117081,       2810]
-NotebookOutlinePosition[    118176,       2844]
-CellTagsIndexPosition[    118016,       2836]
+NotebookDataLength[    126978,       2945]
+NotebookOptionsPosition[    116811,       2797]
+NotebookOutlinePosition[    117931,       2832]
+CellTagsIndexPosition[    117771,       2824]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -61,12 +61,12 @@ Cell[BoxData[
    RowBox[{"Get", "[", 
     RowBox[{
     "ResourceObject", "[", 
-     "\"\<Coronavirus-COVID-19-Pandemic-Government-Measures\>\"", "]"}], 
+     "\"\<Coronavirus COVID-19 Pandemic Government Measures\>\"", "]"}], 
     "]"}]}], ";"}]], "Input",
  CellChangeTimes->{{3.889981346389229*^9, 3.8899814054848127`*^9}, 
-   3.890143438848181*^9},
- CellLabel->
-  "In[212]:=",ExpressionUUID->"9bdff600-170f-4444-9d33-36cd5ce666f9"],
+   3.890143438848181*^9, {3.901439701144589*^9, 3.901439708620831*^9}, {
+   3.901439741991069*^9, 3.901439768325189*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"9bdff600-170f-4444-9d33-36cd5ce666f9"],
 
 Cell["\<\
 The first ten rows of the data can be viewed to see the general structure and \
@@ -85,8 +85,7 @@ Cell[BoxData[
   ";"}]], "Input",
  CellChangeTimes->{{3.8899818342243843`*^9, 3.889981865509173*^9}, 
    3.890145521589459*^9},
- CellLabel->
-  "In[213]:=",ExpressionUUID->"8e07626f-0aa7-41ec-abd0-f25858756025"],
+ CellLabel->"In[4]:=",ExpressionUUID->"8e07626f-0aa7-41ec-abd0-f25858756025"],
 
 Cell["\<\
 The variables of interest here are \
@@ -113,9 +112,8 @@ Cell[BoxData[
      "]"}], "]"}]}], ";"}]], "Input",
  CellChangeTimes->{{3.890143554848249*^9, 3.8901436300816383`*^9}, {
    3.890143681482456*^9, 3.8901437210375147`*^9}, {3.8911835637205677`*^9, 
-   3.891183566523096*^9}, 
-   3.891535046123768*^9},ExpressionUUID->"7e98165c-72e5-4c5c-a5e1-\
-fe2e0a32cda3"]
+   3.891183566523096*^9}, 3.891535046123768*^9},
+ CellLabel->"In[5]:=",ExpressionUUID->"7e98165c-72e5-4c5c-a5e1-fe2e0a32cda3"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -165,9 +163,8 @@ Cell[BoxData[
    3.890131048462631*^9, 3.890131051148817*^9}, {3.890131096895344*^9, 
    3.890131100438504*^9}, 3.8901311323634777`*^9, {3.8901311667227497`*^9, 
    3.890131196783267*^9}, {3.8901423118459253`*^9, 3.890142314106702*^9}, 
-   3.891183643749762*^9, 3.891535740303235*^9, 
-   3.891535806296541*^9},ExpressionUUID->"97e0a21c-9a47-42c9-925f-\
-e697cda5d583"],
+   3.891183643749762*^9, 3.891535740303235*^9, 3.891535806296541*^9},
+ CellLabel->"In[6]:=",ExpressionUUID->"97e0a21c-9a47-42c9-925f-e697cda5d583"],
 
 Cell["\<\
 View the frequency of different measures implemented by each country during \
@@ -191,8 +188,7 @@ Cell[BoxData[
    3.890138452781555*^9}, 3.8901387464634743`*^9, {3.8901388794064417`*^9, 
    3.8901388813242607`*^9}, {3.890143838924473*^9, 3.89014384163603*^9}, 
    3.8911836582280073`*^9},
- CellLabel->
-  "In[219]:=",ExpressionUUID->"c959d7a4-955c-470c-a904-45d59295ffbb"],
+ CellLabel->"In[7]:=",ExpressionUUID->"c959d7a4-955c-470c-a904-45d59295ffbb"],
 
 Cell["\<\
 View the frequency of different categories of measures implemented by \
@@ -257,8 +253,7 @@ Cell[BoxData[
    3.89014199154987*^9}, {3.891184124882916*^9, 3.8911841649060802`*^9}, {
    3.891184216431897*^9, 3.8911842180731897`*^9}, {3.891184258964217*^9, 
    3.89118430721563*^9}, 3.89118923289893*^9},
- CellLabel->
-  "In[258]:=",ExpressionUUID->"aa2aab4e-8e81-42df-9e7e-f99df60a39b6"],
+ CellLabel->"In[8]:=",ExpressionUUID->"aa2aab4e-8e81-42df-9e7e-f99df60a39b6"],
 
 Cell["\<\
 There are missing data in one of the categories. This can be checked with:\
@@ -278,9 +273,8 @@ Cell[BoxData[
     "]"}], "]"}], ";"}]], "Input",
  CellChangeTimes->{{3.890142080962162*^9, 3.89014216028776*^9}, {
    3.890142206282839*^9, 3.8901422092333517`*^9}, {3.8901440832075043`*^9, 
-   3.890144087799355*^9}, 
-   3.891536095094181*^9},ExpressionUUID->"b1c72525-df8d-4610-990e-\
-27205838f5c8"],
+   3.890144087799355*^9}, 3.891536095094181*^9},
+ CellLabel->"In[9]:=",ExpressionUUID->"b1c72525-df8d-4610-990e-27205838f5c8"],
 
 Cell["\<\
 Three entries for Armenia are missing, even though the measures are there. \
@@ -302,8 +296,7 @@ Cell[BoxData[
         RowBox[{"Missing", "[", "\"\<NotAvailable\>\"", "]"}]}], ")"}], "&"}],
       "]"}], "]"}]}], ";"}]], "Input",
  CellChangeTimes->{3.890144197922961*^9},
- CellLabel->
-  "In[232]:=",ExpressionUUID->"9d19a9ce-e3d9-4a32-ad6e-a4dde25cff21"],
+ CellLabel->"In[10]:=",ExpressionUUID->"9d19a9ce-e3d9-4a32-ad6e-a4dde25cff21"],
 
 Cell["\<\
 The bar chart can be re-plotted with the labels positioned above the bars for \
@@ -335,9 +328,8 @@ Cell[BoxData[
    3.8911876988960114`*^9, 3.891187734751546*^9}, {3.891187801454145*^9, 
    3.891187826745331*^9}, {3.89118785973878*^9, 3.8911879360494537`*^9}, {
    3.8911880704435253`*^9, 3.89118821054294*^9}, {3.891188242052499*^9, 
-   3.891188311629797*^9}, 
-   3.891536446470333*^9},ExpressionUUID->"104fe703-c1c3-471f-a044-\
-7b0e91c2f38f"],
+   3.891188311629797*^9}, 3.891536446470333*^9},
+ CellLabel->"In[11]:=",ExpressionUUID->"104fe703-c1c3-471f-a044-7b0e91c2f38f"],
 
 Cell["\<\
 Public health measures were the most frequent category of  measures, whilst \
@@ -376,8 +368,8 @@ Cell[BoxData[
       RowBox[{"_Missing", "->", "0"}], "]"}]}], ",", "All", ",", "Length"}], 
    "]"}], ";"}]], "Input",
  CellChangeTimes->{{3.890562867753429*^9, 3.890562949945822*^9}, 
-   3.8915364526104097`*^9},ExpressionUUID->"70c2c451-4819-4696-91a9-\
-2b43bf579d45"],
+   3.8915364526104097`*^9},
+ CellLabel->"In[12]:=",ExpressionUUID->"70c2c451-4819-4696-91a9-2b43bf579d45"],
 
 Cell["\<\
 In order to visualize the total frequency of measures implemented by \
@@ -413,8 +405,8 @@ Cell[BoxData[
    3.8901388813242607`*^9}, {3.890138946774107*^9, 3.890138947149358*^9}, {
    3.890140139290999*^9, 3.89014015434079*^9}, {3.890140715230941*^9, 
    3.890140716859717*^9}, {3.890142896534032*^9, 3.890142901188764*^9}, 
-   3.89153653086919*^9},ExpressionUUID->"d3cb6d09-ed2f-4ea9-82f6-\
-af3013def46d"],
+   3.89153653086919*^9},
+ CellLabel->"In[13]:=",ExpressionUUID->"d3cb6d09-ed2f-4ea9-82f6-af3013def46d"],
 
 Cell["\<\
 Darker colours on the map indicate a greater number of measures were \
@@ -472,8 +464,8 @@ Cell[BoxData[
    3.890574621324815*^9, {3.890575156703911*^9, 3.8905751650326767`*^9}, {
    3.890575207094521*^9, 3.8905752138940563`*^9}, {3.890575475305347*^9, 
    3.890575524679744*^9}, {3.890575895139511*^9, 3.890575915076262*^9}, 
-   3.891537207809442*^9},ExpressionUUID->"abe4dc1f-a89b-42cb-93d3-\
-7c36387b42e1"],
+   3.891537207809442*^9},
+ CellLabel->"In[14]:=",ExpressionUUID->"abe4dc1f-a89b-42cb-93d3-7c36387b42e1"],
 
 Cell["\<\
 Normalising the data will provide a structure that can be copied and pasted \
@@ -492,9 +484,8 @@ Cell[BoxData[
      RowBox[{"GroupBy", "[", "\"\<Continent\>\"", "]"}], ",", 
      RowBox[{"GroupBy", "[", "\"\<Category\>\"", "]"}], ",", "MinMax", ",", 
      "\"\<ImplementationDate\>\""}], "]"}]}], ";"}]], "Input",
- CellChangeTimes->{{3.891537336054377*^9, 
-  3.8915373382833242`*^9}},ExpressionUUID->"7301b87f-8bd3-4a00-846f-\
-52bbd905472d"],
+ CellChangeTimes->{{3.891537336054377*^9, 3.8915373382833242`*^9}},
+ CellLabel->"In[15]:=",ExpressionUUID->"7301b87f-8bd3-4a00-846f-52bbd905472d"],
 
 Cell[BoxData[
  RowBox[{
@@ -783,9 +774,8 @@ Cell[BoxData[
            "DateObject",
            Editable->False]}], "}"}], "]"}]}], "|>"}]}], "}"}], "]"}], 
   ";"}]], "Input",
- CellChangeTimes->{
-  3.8915375639776297`*^9},ExpressionUUID->"f83cc636-14d7-4bea-92dc-\
-6cda378e74e4"],
+ CellChangeTimes->{3.8915375639776297`*^9},
+ CellLabel->"In[16]:=",ExpressionUUID->"f83cc636-14d7-4bea-92dc-6cda378e74e4"],
 
 Cell["\<\
 A basic timeline plot showing the start and end dates each continent was \
@@ -832,29 +822,28 @@ f76e66162989"],
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{
-   RowBox[{"continentMeasuresTLP", "=", 
-    RowBox[{"TimelinePlot", "[", 
-     RowBox[{
-      RowBox[{"{", 
-       RowBox[{
-        RowBox[{"Legended", "[", 
-         RowBox[{
-          RowBox[{"<|", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"\"\<Public health measures\>\"", "\[Rule]", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Wed 22 Jan 2020 00:00:00\"", 
+  RowBox[{"continentMeasuresTLP", "=", 
+   RowBox[{"TimelinePlot", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Legended", "[", 
+        RowBox[{
+         RowBox[{"<|", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"\"\<Public health measures\>\"", "\[Rule]", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Wed 22 Jan 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -863,16 +852,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Thu 26 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Thu 26 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -881,20 +870,20 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}], ",", 
-             RowBox[{"\"\<Social and economic measures\>\"", "\[Rule]", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Mon 20 Jan 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}], ",", 
+            RowBox[{"\"\<Social and economic measures\>\"", "\[Rule]", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Mon 20 Jan 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -903,16 +892,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Wed 25 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Wed 25 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -921,20 +910,20 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}], ",", 
-             RowBox[{"\"\<Social distancing\>\"", "\[Rule]", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Mon 27 Jan 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}], ",", 
+            RowBox[{"\"\<Social distancing\>\"", "\[Rule]", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Mon 27 Jan 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -943,16 +932,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Thu 26 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Thu 26 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -961,20 +950,20 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}], ",", 
-             RowBox[{"\"\<Movement restrictions\>\"", "\[Rule]", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Thu 2 Jan 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}], ",", 
+            RowBox[{"\"\<Movement restrictions\>\"", "\[Rule]", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Thu 2 Jan 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -983,16 +972,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Sun 29 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Sun 29 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1001,20 +990,20 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}], ",", 
-             RowBox[{"\"\<Lockdown\>\"", "\[Rule]", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Sat 7 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}], ",", 
+            RowBox[{"\"\<Lockdown\>\"", "\[Rule]", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Sat 7 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1023,16 +1012,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Thu 26 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Thu 26 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1041,26 +1030,26 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}]}], "}"}], "|>"}], ",", 
-          "\"\<Asia\>\""}], "]"}], ",", 
-        RowBox[{"Legended", "[", 
-         RowBox[{
-          RowBox[{"<|", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"\"\<Movement restrictions\>\"", "\[Rule]", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Mon 27 Jan 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}]}], "}"}], "|>"}], ",", 
+         "\"\<Asia\>\""}], "]"}], ",", 
+       RowBox[{"Legended", "[", 
+        RowBox[{
+         RowBox[{"<|", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"\"\<Movement restrictions\>\"", "\[Rule]", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Mon 27 Jan 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1069,16 +1058,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Wed 25 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Wed 25 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1087,20 +1076,20 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}], ",", 
-             RowBox[{"\"\<Social distancing\>\"", "\[Rule]", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Fri 21 Feb 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}], ",", 
+            RowBox[{"\"\<Social distancing\>\"", "\[Rule]", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Fri 21 Feb 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1109,16 +1098,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Fri 27 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Fri 27 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1127,20 +1116,20 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}], ",", 
-             RowBox[{"\"\<Public health measures\>\"", "->", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Fri 3 Jan 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}], ",", 
+            RowBox[{"\"\<Public health measures\>\"", "->", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Fri 3 Jan 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1149,16 +1138,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Wed 25 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Wed 25 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1167,20 +1156,20 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}], ",", 
-             RowBox[{"\"\<Social and economic measures\>\"", "->", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Wed 22 Jan 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}], ",", 
+            RowBox[{"\"\<Social and economic measures\>\"", "->", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Wed 22 Jan 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1189,16 +1178,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Thu 26 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Thu 26 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1207,39 +1196,38 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}], ",", 
-             "\[IndentingNewLine]", 
-             RowBox[{"\"\<Lockdown\>\"", "->", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Sun 23 Feb 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}], ",", 
+            "\[IndentingNewLine]", 
+            RowBox[{"\"\<Lockdown\>\"", "->", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Sun 23 Feb 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
-                    
                     RowBox[{
                     "2020", ",", "2", ",", "23", ",", "0", ",", "0", ",", 
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Tue 24 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Tue 24 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1248,26 +1236,26 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}]}], "}"}], "|>"}], ",", 
-          "\"\<Europe\>\""}], "]"}], ",", "\[IndentingNewLine]", 
-        RowBox[{"Legended", "[", 
-         RowBox[{
-          RowBox[{"<|", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"\"\<Public health measures\>\"", "\[Rule]", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Thu 2 Jan 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}]}], "}"}], "|>"}], ",", 
+         "\"\<Europe\>\""}], "]"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"Legended", "[", 
+        RowBox[{
+         RowBox[{"<|", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"\"\<Public health measures\>\"", "\[Rule]", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Thu 2 Jan 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1276,16 +1264,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Fri 27 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Fri 27 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1294,20 +1282,20 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}], ",", 
-             RowBox[{"\"\<Social distancing\>\"", "\[Rule]", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Sat 7 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}], ",", 
+            RowBox[{"\"\<Social distancing\>\"", "\[Rule]", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Sat 7 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1316,16 +1304,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Fri 27 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Fri 27 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1334,20 +1322,20 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}], ",", 
-             RowBox[{"\"\<Movement restrictions\>\"", "->", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Mon 20 Jan 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}], ",", 
+            RowBox[{"\"\<Movement restrictions\>\"", "->", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Mon 20 Jan 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1356,16 +1344,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Fri 27 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Fri 27 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1374,20 +1362,20 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}], ",", 
-             RowBox[{"\"\<Lockdown\>\"", "->", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Sat 21 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}], ",", 
+            RowBox[{"\"\<Lockdown\>\"", "->", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Sat 21 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1396,16 +1384,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Mon 30 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Mon 30 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1414,21 +1402,21 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}], ",", 
-             "\[IndentingNewLine]", 
-             RowBox[{"\"\<Social and economic measures\>\"", "->", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Mon 20 Jan 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}], ",", 
+            "\[IndentingNewLine]", 
+            RowBox[{"\"\<Social and economic measures\>\"", "->", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Mon 20 Jan 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1437,16 +1425,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Fri 27 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Fri 27 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1455,26 +1443,26 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}]}], "}"}], "|>"}], ",", 
-          "\"\<Africa\>\""}], "]"}], ",", "\[IndentingNewLine]", 
-        RowBox[{"Legended", "[", 
-         RowBox[{
-          RowBox[{"<|", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"\"\<Public health measures\>\"", "\[Rule]", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Wed 22 Jan 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}]}], "}"}], "|>"}], ",", 
+         "\"\<Africa\>\""}], "]"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"Legended", "[", 
+        RowBox[{
+         RowBox[{"<|", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"\"\<Public health measures\>\"", "\[Rule]", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Wed 22 Jan 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1483,16 +1471,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Thu 26 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Thu 26 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1501,38 +1489,37 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}], ",", 
-             RowBox[{"\"\<Movement restrictions\>\"", "\[Rule]", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Sat 4 Jan 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}], ",", 
+            RowBox[{"\"\<Movement restrictions\>\"", "\[Rule]", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Sat 4 Jan 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
-                    
                     RowBox[{
                     "2020", ",", "1", ",", "4", ",", "0", ",", "0", ",", 
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Thu 26 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Thu 26 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1541,20 +1528,20 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}], ",", 
-             RowBox[{"\"\<Social distancing\>\"", "->", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Wed 11 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}], ",", 
+            RowBox[{"\"\<Social distancing\>\"", "->", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Wed 11 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1563,16 +1550,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Tue 24 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Tue 24 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1581,20 +1568,20 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}], ",", 
-             RowBox[{"\"\<Social and economic measures\>\"", "->", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Tue 21 Jan 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}], ",", 
+            RowBox[{"\"\<Social and economic measures\>\"", "->", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Tue 21 Jan 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1603,16 +1590,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Tue 24 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Tue 24 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1621,21 +1608,21 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}], ",", 
-             "\[IndentingNewLine]", 
-             RowBox[{"\"\<Lockdown\>\"", "->", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Wed 11 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}], ",", 
+            "\[IndentingNewLine]", 
+            RowBox[{"\"\<Lockdown\>\"", "->", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Wed 11 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1644,16 +1631,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Fri 20 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Fri 20 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1662,26 +1649,26 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}]}], "}"}], "|>"}], ",", 
-          "\"\<North America\>\""}], "]"}], ",", "\[IndentingNewLine]", 
-        RowBox[{"Legended", "[", 
-         RowBox[{
-          RowBox[{"<|", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"\"\<Movement restrictions\>\"", "\[Rule]", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Fri 7 Feb 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}]}], "}"}], "|>"}], ",", 
+         "\"\<North America\>\""}], "]"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"Legended", "[", 
+        RowBox[{
+         RowBox[{"<|", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"\"\<Movement restrictions\>\"", "\[Rule]", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Fri 7 Feb 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1690,16 +1677,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Wed 25 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Wed 25 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1708,20 +1695,20 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}], ",", 
-             RowBox[{"\"\<Public health measures\>\"", "\[Rule]", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Mon 17 Feb 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}], ",", 
+            RowBox[{"\"\<Public health measures\>\"", "\[Rule]", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Mon 17 Feb 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1730,16 +1717,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Mon 23 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Mon 23 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1748,20 +1735,20 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}], ",", 
-             RowBox[{"\"\<Social distancing\>\"", "->", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Tue 10 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}], ",", 
+            RowBox[{"\"\<Social distancing\>\"", "->", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Tue 10 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1770,16 +1757,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Fri 20 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Fri 20 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1788,20 +1775,20 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}], ",", 
-             RowBox[{"\"\<Social and economic measures\>\"", "->", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Tue 21 Jan 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}], ",", 
+            RowBox[{"\"\<Social and economic measures\>\"", "->", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Tue 21 Jan 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1810,16 +1797,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Tue 24 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Tue 24 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1828,21 +1815,21 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}], ",", 
-             "\[IndentingNewLine]", 
-             RowBox[{"\"\<Lockdown\>\"", "->", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Mon 16 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}], ",", 
+            "\[IndentingNewLine]", 
+            RowBox[{"\"\<Lockdown\>\"", "->", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Mon 16 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1851,16 +1838,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Tue 24 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Tue 24 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1869,26 +1856,26 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}]}], "}"}], "|>"}], ",", 
-          "\"\<South America\>\""}], "]"}], ",", "\[IndentingNewLine]", 
-        RowBox[{"Legended", "[", 
-         RowBox[{
-          RowBox[{"<|", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"\"\<Movement restrictions\>\"", "\[Rule]", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Fri 31 Jan 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}]}], "}"}], "|>"}], ",", 
+         "\"\<South America\>\""}], "]"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"Legended", "[", 
+        RowBox[{
+         RowBox[{"<|", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"\"\<Movement restrictions\>\"", "\[Rule]", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Fri 31 Jan 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1897,16 +1884,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Wed 25 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Wed 25 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1915,20 +1902,20 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}], ",", 
-             RowBox[{"\"\<Public health measures\>\"", "\[Rule]", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Mon 17 Feb 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}], ",", 
+            RowBox[{"\"\<Public health measures\>\"", "\[Rule]", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Mon 17 Feb 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1937,16 +1924,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Mon 23 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Mon 23 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1955,20 +1942,20 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}], ",", 
-             RowBox[{"\"\<Social distancing\>\"", "->", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Tue 10 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}], ",", 
+            RowBox[{"\"\<Social distancing\>\"", "->", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Tue 10 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1977,16 +1964,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Fri 20 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Fri 20 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -1995,20 +1982,20 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}], ",", 
-             RowBox[{"\"\<Social and economic measures\>\"", "->", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Tue 21 Jan 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}], ",", 
+            RowBox[{"\"\<Social and economic measures\>\"", "->", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Tue 21 Jan 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -2017,16 +2004,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Tue 24 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Tue 24 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -2035,21 +2022,21 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}], ",", 
-             "\[IndentingNewLine]", 
-             RowBox[{"\"\<Lockdown\>\"", "->", 
-              RowBox[{"DateInterval", "[", 
-               RowBox[{"{", 
-                RowBox[{
-                 TemplateBox[{
-                   RowBox[{"\"Fri 20 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}], ",", 
+            "\[IndentingNewLine]", 
+            RowBox[{"\"\<Lockdown\>\"", "->", 
+             RowBox[{"DateInterval", "[", 
+              RowBox[{"{", 
+               RowBox[{
+                TemplateBox[{
+                  RowBox[{"\"Fri 20 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -2058,16 +2045,16 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False], ",", 
-                 TemplateBox[{
-                   RowBox[{"\"Tue 24 Mar 2020 00:00:00\"", 
+                 "DateObject",
+                 Editable->False], ",", 
+                TemplateBox[{
+                  RowBox[{"\"Tue 24 Mar 2020 00:00:00\"", 
                     StyleBox[
                     RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
                     StyleBox[
                     RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
                     False]}], FontColor -> GrayLevel[0.5]]}], 
-                   RowBox[{"DateObject", "[", 
+                  RowBox[{"DateObject", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     
@@ -2076,45 +2063,45 @@ Cell[BoxData[
                     "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", 
                     ",", 
                     RowBox[{"-", "5.`"}]}], "]"}]},
-                  "DateObject",
-                  Editable->False]}], "}"}], "]"}]}]}], "}"}], "|>"}], ",", 
-          "\"\<Oceania\>\""}], "]"}]}], "}"}], ",", 
-      RowBox[{"TicksStyle", "->", 
-       RowBox[{"Directive", "[", 
-        RowBox[{"{", 
-         RowBox[{
-          RowBox[{"FontSize", "->", "14"}], ",", "Black", ",", 
-          RowBox[{"FontFamily", "->", "\"\<Trebuchet MS\>\""}]}], "}"}], 
-        "]"}]}], ",", 
-      RowBox[{"PlotStyle", "->", 
+                 "DateObject",
+                 Editable->False]}], "}"}], "]"}]}]}], "}"}], "|>"}], ",", 
+         "\"\<Oceania\>\""}], "]"}]}], "}"}], ",", 
+     RowBox[{"TicksStyle", "->", 
+      RowBox[{"Directive", "[", 
        RowBox[{"{", 
         RowBox[{
-        "Red", ",", "Orange", ",", "Black", ",", "Green", ",", "Blue", ",", 
-         "Purple"}], "}"}]}], ",", 
-      RowBox[{"AspectRatio", "->", 
-       RowBox[{"1", "/", "1"}]}], ",", 
-      RowBox[{"PlotLayout", "->", "\"\<Grouped\>\""}], ",", 
-      RowBox[{"Spacings", "->", 
-       RowBox[{"{", 
-        RowBox[{"12", ",", "6", ",", "6", ",", "6", ",", "6", ",", "6"}], 
-        "}"}]}], ",", 
-      RowBox[{"Background", "->", "White"}], ",", 
-      RowBox[{"ImageSize", "->", "1100"}], ",", 
-      RowBox[{"AxesOrigin", "->", "Center"}], ",", 
-      RowBox[{"PlotLabel", "->", 
-       RowBox[{"Style", "[", 
-        RowBox[{
-        "\"\<Timeline of Covid-19 measures imposed by different continents \
+         RowBox[{"FontSize", "->", "14"}], ",", "Black", ",", 
+         RowBox[{"FontFamily", "->", "\"\<Trebuchet MS\>\""}]}], "}"}], 
+       "]"}]}], ",", 
+     RowBox[{"PlotStyle", "->", 
+      RowBox[{"{", 
+       RowBox[{
+       "Red", ",", "Orange", ",", "Black", ",", "Green", ",", "Blue", ",", 
+        "Purple"}], "}"}]}], ",", 
+     RowBox[{"AspectRatio", "->", 
+      RowBox[{"1", "/", "1"}]}], ",", 
+     RowBox[{"PlotLayout", "->", "\"\<Grouped\>\""}], ",", 
+     RowBox[{"Spacings", "->", 
+      RowBox[{"{", 
+       RowBox[{"12", ",", "6", ",", "6", ",", "6", ",", "6", ",", "6"}], 
+       "}"}]}], ",", 
+     RowBox[{"Background", "->", "White"}], ",", 
+     RowBox[{"ImageSize", "->", "1100"}], ",", 
+     RowBox[{"AxesOrigin", "->", "Center"}], ",", 
+     RowBox[{"PlotLabel", "->", 
+      RowBox[{"Style", "[", 
+       RowBox[{
+       "\"\<Timeline of Covid-19 measures imposed by different continents \
 from January to April 2020\>\"", ",", 
-         RowBox[{"FontSize", "->", "18"}], ",", 
-         RowBox[{"FontColor", "->", "Black"}]}], "]"}]}], ",", 
-      "\[IndentingNewLine]", 
-      RowBox[{"BaseStyle", "->", 
-       RowBox[{"{", 
-        RowBox[{
-         RowBox[{"FontSize", "->", "12"}], ",", 
-         RowBox[{"FontFamily", "->", "\"\<Trebuchet MS\>\""}]}], "}"}]}]}], 
-     "]"}]}], ";"}], "\n"}]], "Input",
+        RowBox[{"FontSize", "->", "18"}], ",", 
+        RowBox[{"FontColor", "->", "Black"}]}], "]"}]}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"BaseStyle", "->", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"FontSize", "->", "12"}], ",", 
+        RowBox[{"FontFamily", "->", "\"\<Trebuchet MS\>\""}]}], "}"}]}]}], 
+    "]"}]}], "\n"}]], "Input",
  CellChangeTimes->{{3.890657760294903*^9, 3.890657760295803*^9}, 
    3.890657926368374*^9, {3.890658027982236*^9, 3.8906582121330967`*^9}, {
    3.8906582761437483`*^9, 3.89065831705029*^9}, 3.890658379001343*^9, {
@@ -2142,8 +2129,8 @@ from January to April 2020\>\"", ",",
    3.8906635622759027`*^9}, {3.890663754526395*^9, 3.8906637699751387`*^9}, {
    3.890663801850678*^9, 3.890663837886821*^9}, {3.890663948512411*^9, 
    3.8906639561263742`*^9}, {3.890663998701191*^9, 3.8906640337079163`*^9}, 
-   3.8915377031751013`*^9},ExpressionUUID->"e9bf6d8a-9007-4b2d-a3c3-\
-21be490f441f"],
+   3.8915377031751013`*^9, 3.9014399064677963`*^9},
+ CellLabel->"In[18]:=",ExpressionUUID->"e9bf6d8a-9007-4b2d-a3c3-21be490f441f"],
 
 Cell["\<\
 Prior to the first lockdown being implemented in Europe at the end of \
@@ -2808,8 +2795,9 @@ Documentation and An Elementary Introduction to the Wolfram Language \
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{706.5, 762.},
-WindowMargins->{{-1401, Automatic}, {Automatic, -432}},
+WindowSize->{1920., 1052.25},
+WindowMargins->{{Automatic, 1440}, {326.25, Automatic}},
+Magnification->0.75,
 FrontEndVersion->"13.2 for Linux x86 (64-bit) (January 31, 2023)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"125c6098-e0e0-4811-a166-41cc582e8773"
@@ -2820,142 +2808,142 @@ ExpressionUUID->"125c6098-e0e0-4811-a166-41cc582e8773"
 (*CellTagsOutline
 CellTagsIndex->{
  "00008116"->{
-  Cell[113493, 2696, 838, 24, 43, "Reference",ExpressionUUID->"10332385-1613-4f77-90a1-8de202b1943b",
+  Cell[113223, 2683, 838, 24, 32, "Reference",ExpressionUUID->"10332385-1613-4f77-90a1-8de202b1943b",
    CellTags->"00008116"]},
  "00005AC5"->{
-  Cell[114334, 2722, 683, 22, 29, "Reference",ExpressionUUID->"37e01371-f2da-429a-8127-54678d266266",
+  Cell[114064, 2709, 683, 22, 21, "Reference",ExpressionUUID->"37e01371-f2da-429a-8127-54678d266266",
    CellTags->"00005AC5"]},
  "00007D38"->{
-  Cell[115020, 2746, 824, 24, 43, "Reference",ExpressionUUID->"b2bf3c0f-4660-4e4e-b79e-4d72ff58c39a",
+  Cell[114750, 2733, 824, 24, 32, "Reference",ExpressionUUID->"b2bf3c0f-4660-4e4e-b79e-4d72ff58c39a",
    CellTags->"00007D38"]},
  "00005FC8"->{
-  Cell[115847, 2772, 696, 22, 29, "Reference",ExpressionUUID->"5ca9a648-b431-4233-8445-791f3ca9c28e",
+  Cell[115577, 2759, 696, 22, 21, "Reference",ExpressionUUID->"5ca9a648-b431-4233-8445-791f3ca9c28e",
    CellTags->"00005FC8"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"00008116", 117432, 2821},
- {"00005AC5", 117576, 2824},
- {"00007D38", 117720, 2827},
- {"00005FC8", 117864, 2830}
+ {"00008116", 117187, 2809},
+ {"00005AC5", 117331, 2812},
+ {"00007D38", 117475, 2815},
+ {"00005FC8", 117619, 2818}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 233, 4, 240, "Title",ExpressionUUID->"3b417fd1-db9c-499f-83f9-3c817c9a5324"],
-Cell[816, 28, 165, 3, 57, "Subtitle",ExpressionUUID->"c97d6ba6-1663-454e-9ba8-6cda04d490c2"],
+Cell[580, 22, 233, 4, 79, "Title",ExpressionUUID->"3b417fd1-db9c-499f-83f9-3c817c9a5324"],
+Cell[816, 28, 165, 3, 43, "Subtitle",ExpressionUUID->"c97d6ba6-1663-454e-9ba8-6cda04d490c2"],
 Cell[CellGroupData[{
-Cell[1006, 35, 257, 4, 58, "Subsection",ExpressionUUID->"a7773181-59d3-4901-9592-a97668dc1d50"],
-Cell[1266, 41, 453, 9, 87, "Text",ExpressionUUID->"8b41222b-b683-4a91-90a2-c88aebb5d700"],
-Cell[1722, 52, 168, 3, 37, "Text",ExpressionUUID->"7451ac02-a532-434c-a0d7-a9fa245b656a"],
-Cell[1893, 57, 396, 11, 51, "Input",ExpressionUUID->"9bdff600-170f-4444-9d33-36cd5ce666f9"],
-Cell[2292, 70, 261, 6, 62, "Text",ExpressionUUID->"2db5e1a0-23d3-489b-a863-87607d3cb840"],
-Cell[2556, 78, 344, 10, 29, "Input",ExpressionUUID->"8e07626f-0aa7-41ec-abd0-f25858756025"],
-Cell[2903, 90, 514, 10, 87, "Text",ExpressionUUID->"fb39846e-9982-40aa-8788-049af56263ed"],
-Cell[3420, 102, 608, 15, 51, "Input",ExpressionUUID->"7e98165c-72e5-4c5c-a5e1-fe2e0a32cda3"]
+Cell[1006, 35, 257, 4, 43, "Subsection",ExpressionUUID->"a7773181-59d3-4901-9592-a97668dc1d50"],
+Cell[1266, 41, 453, 9, 28, "Text",ExpressionUUID->"8b41222b-b683-4a91-90a2-c88aebb5d700"],
+Cell[1722, 52, 168, 3, 28, "Text",ExpressionUUID->"7451ac02-a532-434c-a0d7-a9fa245b656a"],
+Cell[1893, 57, 487, 11, 25, "Input",ExpressionUUID->"9bdff600-170f-4444-9d33-36cd5ce666f9"],
+Cell[2383, 70, 261, 6, 28, "Text",ExpressionUUID->"2db5e1a0-23d3-489b-a863-87607d3cb840"],
+Cell[2647, 78, 339, 9, 22, "Input",ExpressionUUID->"8e07626f-0aa7-41ec-abd0-f25858756025"],
+Cell[2989, 89, 514, 10, 28, "Text",ExpressionUUID->"fb39846e-9982-40aa-8788-049af56263ed"],
+Cell[3506, 101, 625, 14, 24, "Input",ExpressionUUID->"7e98165c-72e5-4c5c-a5e1-fe2e0a32cda3"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4065, 122, 161, 3, 58, "Subsection",ExpressionUUID->"92d0db66-8156-4c18-b05e-ef430083191f"],
-Cell[4229, 127, 782, 14, 137, "Text",ExpressionUUID->"96d18714-2692-45f7-abe8-f15bb4b04c8c"],
-Cell[5014, 143, 197, 3, 37, "Text",ExpressionUUID->"576d8759-8080-474f-8896-63afd42e9e4f"],
-Cell[5214, 148, 889, 21, 71, "Input",ExpressionUUID->"97e0a21c-9a47-42c9-925f-e697cda5d583"],
-Cell[6106, 171, 280, 6, 62, "Text",ExpressionUUID->"d86748f2-553f-475d-829a-167eff6160b8"],
-Cell[6389, 179, 635, 15, 29, "Input",ExpressionUUID->"c959d7a4-955c-470c-a904-45d59295ffbb"],
-Cell[7027, 196, 401, 8, 62, "Text",ExpressionUUID->"ddf30414-a443-4b28-aa9b-005de386f665"],
-Cell[7431, 206, 1240, 30, 47, "Text",ExpressionUUID->"d92c40f6-d37d-493c-a0c6-ba80b9a1f5a7"],
-Cell[8674, 238, 1164, 22, 29, "Input",ExpressionUUID->"aa2aab4e-8e81-42df-9e7e-f99df60a39b6"],
-Cell[9841, 262, 224, 5, 37, "Text",ExpressionUUID->"342bdc50-d281-44c0-b6db-fbc42b0c049a"],
-Cell[10068, 269, 509, 13, 29, "Input",ExpressionUUID->"b1c72525-df8d-4610-990e-27205838f5c8"],
-Cell[10580, 284, 348, 7, 62, "Text",ExpressionUUID->"15ba55d6-8b9e-4f8d-8ff8-97aac5abb0ec"],
-Cell[10931, 293, 419, 12, 29, "Input",ExpressionUUID->"9d19a9ce-e3d9-4a32-ad6e-a4dde25cff21"],
-Cell[11353, 307, 346, 7, 62, "Text",ExpressionUUID->"71ecefb9-b17b-4a7e-bfac-135691138f09"],
-Cell[11702, 316, 984, 23, 98, "Input",ExpressionUUID->"104fe703-c1c3-471f-a044-7b0e91c2f38f"],
-Cell[12689, 341, 437, 8, 112, "Text",ExpressionUUID->"2ec68684-388b-4233-a240-846e4bd95949"],
-Cell[13129, 351, 459, 8, 87, "Text",ExpressionUUID->"589679d6-5cca-4dbc-a62d-462f12bf25de"],
-Cell[13591, 361, 641, 18, 51, "Input",ExpressionUUID->"70c2c451-4819-4696-91a9-2b43bf579d45"],
-Cell[14235, 381, 388, 7, 62, "Text",ExpressionUUID->"e2842451-a5a8-46fb-ad76-8ce2b5a0b6b9"],
-Cell[14626, 390, 352, 7, 87, "Text",ExpressionUUID->"9dfb8177-d26f-4d22-8fa8-80d948355b4b"],
-Cell[14981, 399, 804, 17, 29, "Input",ExpressionUUID->"d3cb6d09-ed2f-4ea9-82f6-af3013def46d"],
-Cell[15788, 418, 446, 9, 87, "Text",ExpressionUUID->"aff2ef07-c3f2-4903-9929-f91f1a14eba7"],
-Cell[16237, 429, 1427, 32, 122, "Text",ExpressionUUID->"7db8090e-9d46-46ed-a496-cedd7c7a6b23"],
-Cell[17667, 463, 631, 12, 51, "Input",ExpressionUUID->"abe4dc1f-a89b-42cb-93d3-7c36387b42e1"],
-Cell[18301, 477, 349, 7, 62, "Text",ExpressionUUID->"ce407b65-0356-4669-bfe2-658b7e36d27d"],
-Cell[18653, 486, 421, 10, 51, "Input",ExpressionUUID->"7301b87f-8bd3-4a00-846f-52bbd905472d"],
-Cell[19077, 498, 11573, 289, 568, "Input",ExpressionUUID->"f83cc636-14d7-4bea-92dc-6cda378e74e4"],
-Cell[30653, 789, 297, 7, 62, "Text",ExpressionUUID->"e03964ba-72fa-4824-807e-17e4fd53db8e"],
-Cell[30953, 798, 1306, 32, 72, "Text",ExpressionUUID->"28cea10a-8c74-4d0f-b70e-f76e66162989"],
-Cell[32262, 832, 59618, 1313, 2720, "Input",ExpressionUUID->"e9bf6d8a-9007-4b2d-a3c3-21be490f441f"],
-Cell[91883, 2147, 442, 9, 87, "Text",ExpressionUUID->"912a3aaf-6412-4063-8b83-34853d15db66"],
+Cell[4168, 120, 161, 3, 43, "Subsection",ExpressionUUID->"92d0db66-8156-4c18-b05e-ef430083191f"],
+Cell[4332, 125, 782, 14, 47, "Text",ExpressionUUID->"96d18714-2692-45f7-abe8-f15bb4b04c8c"],
+Cell[5117, 141, 197, 3, 28, "Text",ExpressionUUID->"576d8759-8080-474f-8896-63afd42e9e4f"],
+Cell[5317, 146, 906, 20, 24, "Input",ExpressionUUID->"97e0a21c-9a47-42c9-925f-e697cda5d583"],
+Cell[6226, 168, 280, 6, 28, "Text",ExpressionUUID->"d86748f2-553f-475d-829a-167eff6160b8"],
+Cell[6509, 176, 630, 14, 22, "Input",ExpressionUUID->"c959d7a4-955c-470c-a904-45d59295ffbb"],
+Cell[7142, 192, 401, 8, 28, "Text",ExpressionUUID->"ddf30414-a443-4b28-aa9b-005de386f665"],
+Cell[7546, 202, 1240, 30, 36, "Text",ExpressionUUID->"d92c40f6-d37d-493c-a0c6-ba80b9a1f5a7"],
+Cell[8789, 234, 1159, 21, 22, "Input",ExpressionUUID->"aa2aab4e-8e81-42df-9e7e-f99df60a39b6"],
+Cell[9951, 257, 224, 5, 28, "Text",ExpressionUUID->"342bdc50-d281-44c0-b6db-fbc42b0c049a"],
+Cell[10178, 264, 526, 12, 24, "Input",ExpressionUUID->"b1c72525-df8d-4610-990e-27205838f5c8"],
+Cell[10707, 278, 348, 7, 28, "Text",ExpressionUUID->"15ba55d6-8b9e-4f8d-8ff8-97aac5abb0ec"],
+Cell[11058, 287, 415, 11, 24, "Input",ExpressionUUID->"9d19a9ce-e3d9-4a32-ad6e-a4dde25cff21"],
+Cell[11476, 300, 346, 7, 28, "Text",ExpressionUUID->"71ecefb9-b17b-4a7e-bfac-135691138f09"],
+Cell[11825, 309, 1002, 22, 25, "Input",ExpressionUUID->"104fe703-c1c3-471f-a044-7b0e91c2f38f"],
+Cell[12830, 333, 437, 8, 28, "Text",ExpressionUUID->"2ec68684-388b-4233-a240-846e4bd95949"],
+Cell[13270, 343, 459, 8, 28, "Text",ExpressionUUID->"589679d6-5cca-4dbc-a62d-462f12bf25de"],
+Cell[13732, 353, 663, 18, 24, "Input",ExpressionUUID->"70c2c451-4819-4696-91a9-2b43bf579d45"],
+Cell[14398, 373, 388, 7, 28, "Text",ExpressionUUID->"e2842451-a5a8-46fb-ad76-8ce2b5a0b6b9"],
+Cell[14789, 382, 352, 7, 28, "Text",ExpressionUUID->"9dfb8177-d26f-4d22-8fa8-80d948355b4b"],
+Cell[15144, 391, 826, 17, 22, "Input",ExpressionUUID->"d3cb6d09-ed2f-4ea9-82f6-af3013def46d"],
+Cell[15973, 410, 446, 9, 28, "Text",ExpressionUUID->"aff2ef07-c3f2-4903-9929-f91f1a14eba7"],
+Cell[16422, 421, 1427, 32, 36, "Text",ExpressionUUID->"7db8090e-9d46-46ed-a496-cedd7c7a6b23"],
+Cell[17852, 455, 653, 12, 24, "Input",ExpressionUUID->"abe4dc1f-a89b-42cb-93d3-7c36387b42e1"],
+Cell[18508, 469, 349, 7, 28, "Text",ExpressionUUID->"ce407b65-0356-4669-bfe2-658b7e36d27d"],
+Cell[18860, 478, 440, 9, 24, "Input",ExpressionUUID->"7301b87f-8bd3-4a00-846f-52bbd905472d"],
+Cell[19303, 489, 11592, 288, 85, "Input",ExpressionUUID->"f83cc636-14d7-4bea-92dc-6cda378e74e4"],
+Cell[30898, 779, 297, 7, 28, "Text",ExpressionUUID->"e03964ba-72fa-4824-807e-17e4fd53db8e"],
+Cell[31198, 788, 1306, 32, 36, "Text",ExpressionUUID->"28cea10a-8c74-4d0f-b70e-f76e66162989"],
+Cell[32507, 822, 59103, 1310, 544, "Input",ExpressionUUID->"e9bf6d8a-9007-4b2d-a3c3-21be490f441f"],
+Cell[91613, 2134, 442, 9, 28, "Text",ExpressionUUID->"912a3aaf-6412-4063-8b83-34853d15db66"],
 Cell[CellGroupData[{
-Cell[92350, 2160, 179, 3, 48, "Subsubsection",ExpressionUUID->"0f78f0d5-6653-4d0e-84ce-6b7786cefe48"],
-Cell[92532, 2165, 500, 9, 112, "Text",ExpressionUUID->"9724ba5a-9aaa-46a4-bde5-341286b74256"],
-Cell[93035, 2176, 286, 6, 62, "Text",ExpressionUUID->"6757cc1f-6129-45a0-8c9d-db326f3c8e73"],
-Cell[93324, 2184, 255, 5, 29, "Input",ExpressionUUID->"534ad184-add7-42e8-8872-24962c265261"],
-Cell[93582, 2191, 515, 11, 51, "Input",ExpressionUUID->"9f0e6299-c1dd-4dff-a357-9f7bee2a485d"],
-Cell[94100, 2204, 338, 7, 62, "Text",ExpressionUUID->"afd2df5e-f95f-47ad-9b61-3bfcef1a1561"],
-Cell[94441, 2213, 466, 12, 29, "Input",ExpressionUUID->"4d2137f3-7d4a-45d8-838f-2af96b965efd"],
-Cell[94910, 2227, 179, 3, 37, "Text",ExpressionUUID->"4e9e8c0a-6991-4e4e-b730-89b827156dd3"],
-Cell[95092, 2232, 213, 5, 29, "Input",ExpressionUUID->"9ca290c0-ac63-4512-9ac9-6e022b5f77d2"],
-Cell[95308, 2239, 762, 13, 162, "Text",ExpressionUUID->"580de43a-b22f-4c6d-9937-4f6a3a792180"],
-Cell[96073, 2254, 3785, 79, 71, "Input",ExpressionUUID->"7718cc74-e48c-4c89-8984-8add9c35ca5d"],
-Cell[99861, 2335, 519, 10, 112, "Text",ExpressionUUID->"88084a08-a9b4-4aa0-9d0f-587de367db55"],
-Cell[100383, 2347, 997, 16, 187, "Text",ExpressionUUID->"ea7385c7-e01f-440e-99ba-8962f81f9ea5"],
-Cell[101383, 2365, 157, 3, 37, "Text",ExpressionUUID->"cbb4aaf6-06a2-4035-83c2-6c2fe8731b23"],
-Cell[101543, 2370, 371, 12, 45, "Input",ExpressionUUID->"2e109277-8082-41da-ac37-bb0763fd8234"],
-Cell[101917, 2384, 525, 12, 62, "Text",ExpressionUUID->"c8a6272d-6426-4dab-b443-68c69ba76e0a"],
-Cell[102445, 2398, 331, 7, 62, "Text",ExpressionUUID->"b6cb464c-aa9b-4884-9dc5-6a7c26f706ee"],
-Cell[102779, 2407, 1831, 34, 51, "Input",ExpressionUUID->"c77f43c6-c167-4d3b-a8db-35eae896a83e"],
-Cell[104613, 2443, 228, 5, 37, "Text",ExpressionUUID->"2de7ebd7-529c-4f64-a4b1-8f1451e03715"],
-Cell[104844, 2450, 265, 5, 29, "Input",ExpressionUUID->"d777cb6e-e0bf-4cba-8047-bac228dd8fd4"],
-Cell[105112, 2457, 199, 3, 37, "Text",ExpressionUUID->"df1551fb-8997-4ac3-8718-9103e415a502"],
-Cell[105314, 2462, 258, 6, 29, "Input",ExpressionUUID->"bf424c17-b04f-4ae4-b707-636a9c8e4f84"],
-Cell[105575, 2470, 724, 13, 162, "Text",ExpressionUUID->"979a1e36-18d5-44b8-b8c9-a02345f213a1"],
-Cell[106302, 2485, 397, 11, 32, "Input",ExpressionUUID->"02797eb8-6f48-4df1-83b0-6529f78a5ae7"],
-Cell[106702, 2498, 369, 7, 62, "Text",ExpressionUUID->"f19260e7-7007-487d-b4d9-0e856bc8a317"],
-Cell[107074, 2507, 322, 7, 62, "Text",ExpressionUUID->"aef086f0-d2f0-4275-ab74-b0414374aa1b"],
-Cell[107399, 2516, 147, 3, 37, "Text",ExpressionUUID->"b894c1eb-0b09-4924-bc0f-0e0fb641bed0"],
+Cell[92080, 2147, 179, 3, 36, "Subsubsection",ExpressionUUID->"0f78f0d5-6653-4d0e-84ce-6b7786cefe48"],
+Cell[92262, 2152, 500, 9, 28, "Text",ExpressionUUID->"9724ba5a-9aaa-46a4-bde5-341286b74256"],
+Cell[92765, 2163, 286, 6, 28, "Text",ExpressionUUID->"6757cc1f-6129-45a0-8c9d-db326f3c8e73"],
+Cell[93054, 2171, 255, 5, 24, "Input",ExpressionUUID->"534ad184-add7-42e8-8872-24962c265261"],
+Cell[93312, 2178, 515, 11, 24, "Input",ExpressionUUID->"9f0e6299-c1dd-4dff-a357-9f7bee2a485d"],
+Cell[93830, 2191, 338, 7, 28, "Text",ExpressionUUID->"afd2df5e-f95f-47ad-9b61-3bfcef1a1561"],
+Cell[94171, 2200, 466, 12, 22, "Input",ExpressionUUID->"4d2137f3-7d4a-45d8-838f-2af96b965efd"],
+Cell[94640, 2214, 179, 3, 28, "Text",ExpressionUUID->"4e9e8c0a-6991-4e4e-b730-89b827156dd3"],
+Cell[94822, 2219, 213, 5, 22, "Input",ExpressionUUID->"9ca290c0-ac63-4512-9ac9-6e022b5f77d2"],
+Cell[95038, 2226, 762, 13, 47, "Text",ExpressionUUID->"580de43a-b22f-4c6d-9937-4f6a3a792180"],
+Cell[95803, 2241, 3785, 79, 22, "Input",ExpressionUUID->"7718cc74-e48c-4c89-8984-8add9c35ca5d"],
+Cell[99591, 2322, 519, 10, 28, "Text",ExpressionUUID->"88084a08-a9b4-4aa0-9d0f-587de367db55"],
+Cell[100113, 2334, 997, 16, 47, "Text",ExpressionUUID->"ea7385c7-e01f-440e-99ba-8962f81f9ea5"],
+Cell[101113, 2352, 157, 3, 28, "Text",ExpressionUUID->"cbb4aaf6-06a2-4035-83c2-6c2fe8731b23"],
+Cell[101273, 2357, 371, 12, 38, "Input",ExpressionUUID->"2e109277-8082-41da-ac37-bb0763fd8234"],
+Cell[101647, 2371, 525, 12, 28, "Text",ExpressionUUID->"c8a6272d-6426-4dab-b443-68c69ba76e0a"],
+Cell[102175, 2385, 331, 7, 28, "Text",ExpressionUUID->"b6cb464c-aa9b-4884-9dc5-6a7c26f706ee"],
+Cell[102509, 2394, 1831, 34, 24, "Input",ExpressionUUID->"c77f43c6-c167-4d3b-a8db-35eae896a83e"],
+Cell[104343, 2430, 228, 5, 28, "Text",ExpressionUUID->"2de7ebd7-529c-4f64-a4b1-8f1451e03715"],
+Cell[104574, 2437, 265, 5, 22, "Input",ExpressionUUID->"d777cb6e-e0bf-4cba-8047-bac228dd8fd4"],
+Cell[104842, 2444, 199, 3, 28, "Text",ExpressionUUID->"df1551fb-8997-4ac3-8718-9103e415a502"],
+Cell[105044, 2449, 258, 6, 22, "Input",ExpressionUUID->"bf424c17-b04f-4ae4-b707-636a9c8e4f84"],
+Cell[105305, 2457, 724, 13, 66, "Text",ExpressionUUID->"979a1e36-18d5-44b8-b8c9-a02345f213a1"],
+Cell[106032, 2472, 397, 11, 24, "Input",ExpressionUUID->"02797eb8-6f48-4df1-83b0-6529f78a5ae7"],
+Cell[106432, 2485, 369, 7, 28, "Text",ExpressionUUID->"f19260e7-7007-487d-b4d9-0e856bc8a317"],
+Cell[106804, 2494, 322, 7, 28, "Text",ExpressionUUID->"aef086f0-d2f0-4275-ab74-b0414374aa1b"],
+Cell[107129, 2503, 147, 3, 28, "Text",ExpressionUUID->"b894c1eb-0b09-4924-bc0f-0e0fb641bed0"],
 Cell[CellGroupData[{
-Cell[107571, 2523, 220, 4, 29, "Input",ExpressionUUID->"c472020a-ebee-490e-ae7f-efab419de9f1"],
-Cell[107794, 2529, 173, 3, 37, "Output",ExpressionUUID->"5bdad531-7cfb-4167-a948-61a6d9f33683"]
+Cell[107301, 2510, 220, 4, 22, "Input",ExpressionUUID->"c472020a-ebee-490e-ae7f-efab419de9f1"],
+Cell[107524, 2516, 173, 3, 27, "Output",ExpressionUUID->"5bdad531-7cfb-4167-a948-61a6d9f33683"]
 }, Open  ]],
-Cell[107982, 2535, 148, 3, 37, "Text",ExpressionUUID->"a7d65140-aecd-4162-b92d-83cfa2728677"],
+Cell[107712, 2522, 148, 3, 28, "Text",ExpressionUUID->"a7d65140-aecd-4162-b92d-83cfa2728677"],
 Cell[CellGroupData[{
-Cell[108155, 2542, 219, 4, 29, "Input",ExpressionUUID->"ce28a5dd-1da2-4572-8229-33fe511ca680"],
-Cell[108377, 2548, 171, 3, 37, "Output",ExpressionUUID->"88ed1b82-5535-48d0-8a1d-da713b0c71f8"]
+Cell[107885, 2529, 219, 4, 22, "Input",ExpressionUUID->"ce28a5dd-1da2-4572-8229-33fe511ca680"],
+Cell[108107, 2535, 171, 3, 27, "Output",ExpressionUUID->"88ed1b82-5535-48d0-8a1d-da713b0c71f8"]
 }, Open  ]],
-Cell[108563, 2554, 148, 3, 37, "Text",ExpressionUUID->"6cc291df-936b-428e-936f-6959b1fe66d7"],
+Cell[108293, 2541, 148, 3, 27, "Text",ExpressionUUID->"6cc291df-936b-428e-936f-6959b1fe66d7"],
 Cell[CellGroupData[{
-Cell[108736, 2561, 218, 4, 29, "Input",ExpressionUUID->"5deb45b3-87f6-4a0d-a73b-3dc1eab1e043"],
-Cell[108957, 2567, 171, 3, 37, "Output",ExpressionUUID->"25137f1f-7dfb-4f87-816e-06d33854d3ec"]
+Cell[108466, 2548, 218, 4, 22, "Input",ExpressionUUID->"5deb45b3-87f6-4a0d-a73b-3dc1eab1e043"],
+Cell[108687, 2554, 171, 3, 27, "Output",ExpressionUUID->"25137f1f-7dfb-4f87-816e-06d33854d3ec"]
 }, Open  ]],
-Cell[109143, 2573, 155, 3, 37, "Text",ExpressionUUID->"9ee69c2a-68cb-4928-a424-8a053d922177"],
+Cell[108873, 2560, 155, 3, 27, "Text",ExpressionUUID->"9ee69c2a-68cb-4928-a424-8a053d922177"],
 Cell[CellGroupData[{
-Cell[109323, 2580, 223, 4, 29, "Input",ExpressionUUID->"1368a3d4-ad70-45de-bf46-85b3d82c5168"],
-Cell[109549, 2586, 171, 3, 37, "Output",ExpressionUUID->"a4bd2dbf-12e6-4bed-b0f8-cd614014c683"]
+Cell[109053, 2567, 223, 4, 22, "Input",ExpressionUUID->"1368a3d4-ad70-45de-bf46-85b3d82c5168"],
+Cell[109279, 2573, 171, 3, 27, "Output",ExpressionUUID->"a4bd2dbf-12e6-4bed-b0f8-cd614014c683"]
 }, Open  ]],
-Cell[109735, 2592, 149, 3, 37, "Text",ExpressionUUID->"f73207b6-3ee8-4c78-ab8e-e45e076185ab"],
+Cell[109465, 2579, 149, 3, 27, "Text",ExpressionUUID->"f73207b6-3ee8-4c78-ab8e-e45e076185ab"],
 Cell[CellGroupData[{
-Cell[109909, 2599, 219, 4, 29, "Input",ExpressionUUID->"f448952c-a77b-4d8e-92a5-45dba602aa7e"],
-Cell[110131, 2605, 171, 3, 37, "Output",ExpressionUUID->"54b0820c-a166-4278-82b5-c8e1110181a1"]
+Cell[109639, 2586, 219, 4, 22, "Input",ExpressionUUID->"f448952c-a77b-4d8e-92a5-45dba602aa7e"],
+Cell[109861, 2592, 171, 3, 27, "Output",ExpressionUUID->"54b0820c-a166-4278-82b5-c8e1110181a1"]
 }, Open  ]],
-Cell[110317, 2611, 514, 10, 112, "Text",ExpressionUUID->"ca64f6ff-9ccd-4a26-a971-d02ce9a238a1"],
-Cell[110834, 2623, 1006, 28, 47, "Text",ExpressionUUID->"51b905cd-979a-4446-bbe8-04f5a5720049"],
-Cell[111843, 2653, 844, 20, 92, "Input",ExpressionUUID->"886d899e-4471-481a-af97-6749cc0e6133"],
-Cell[112690, 2675, 602, 11, 162, "Text",ExpressionUUID->"a59ed019-2759-41f7-9e5f-819a2b9614ec"]
+Cell[110047, 2598, 514, 10, 46, "Text",ExpressionUUID->"ca64f6ff-9ccd-4a26-a971-d02ce9a238a1"],
+Cell[110564, 2610, 1006, 28, 35, "Text",ExpressionUUID->"51b905cd-979a-4446-bbe8-04f5a5720049"],
+Cell[111573, 2640, 844, 20, 69, "Input",ExpressionUUID->"886d899e-4471-481a-af97-6749cc0e6133"],
+Cell[112420, 2662, 602, 11, 121, "Text",ExpressionUUID->"a59ed019-2759-41f7-9e5f-819a2b9614ec"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[113329, 2691, 161, 3, 48, "Subsubsection",ExpressionUUID->"4dfc5ab8-278d-4cc9-91ec-dbe8709a5281"],
-Cell[113493, 2696, 838, 24, 43, "Reference",ExpressionUUID->"10332385-1613-4f77-90a1-8de202b1943b",
+Cell[113059, 2678, 161, 3, 36, "Subsubsection",ExpressionUUID->"4dfc5ab8-278d-4cc9-91ec-dbe8709a5281"],
+Cell[113223, 2683, 838, 24, 32, "Reference",ExpressionUUID->"10332385-1613-4f77-90a1-8de202b1943b",
  CellTags->"00008116"],
-Cell[114334, 2722, 683, 22, 29, "Reference",ExpressionUUID->"37e01371-f2da-429a-8127-54678d266266",
+Cell[114064, 2709, 683, 22, 21, "Reference",ExpressionUUID->"37e01371-f2da-429a-8127-54678d266266",
  CellTags->"00005AC5"],
-Cell[115020, 2746, 824, 24, 43, "Reference",ExpressionUUID->"b2bf3c0f-4660-4e4e-b79e-4d72ff58c39a",
+Cell[114750, 2733, 824, 24, 32, "Reference",ExpressionUUID->"b2bf3c0f-4660-4e4e-b79e-4d72ff58c39a",
  CellTags->"00007D38"],
-Cell[115847, 2772, 696, 22, 29, "Reference",ExpressionUUID->"5ca9a648-b431-4233-8445-791f3ca9c28e",
+Cell[115577, 2759, 696, 22, 21, "Reference",ExpressionUUID->"5ca9a648-b431-4233-8445-791f3ca9c28e",
  CellTags->"00005FC8"],
-Cell[116546, 2796, 495, 9, 112, "Text",ExpressionUUID->"e2904343-166e-401a-a6ec-87b936812492"]
+Cell[116276, 2783, 495, 9, 84, "Text",ExpressionUUID->"e2904343-166e-401a-a6ec-87b936812492"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
